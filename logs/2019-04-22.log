@@ -1,0 +1,83 @@
+2019-04-22 11:38:15,316 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 11:38:15,436 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 13:47:18,128 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 13:47:18,261 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 13:47:38,389 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 13:48:57,248 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 13:48:57,406 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 13:50:40,220 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64)
+ - [base.py:38]
+2019-04-22 13:51:03,114 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 13:51:03,271 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:07:33,115 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:07:33,244 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:08:23,598 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:08:23,728 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:08:47,956 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 15:09:44,786 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:09:44,918 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:10:44,976 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:10:45,144 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:11:08,914 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 15:13:43,874 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:13:44,016 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:15:38,456 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:15:38,606 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:16:06,805 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 15:23:56,962 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:23:57,105 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:41:59,389 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:41:59,538 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:42:29,603 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 15:50:32,858 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:50:33,002 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:51:10,535 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 15:53:33,748 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:53:33,873 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:54:02,826 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 15:54:47,550 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:54:47,688 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:55:38,191 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 15:56:21,509 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 15:56:21,648 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 15:56:52,069 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 16:00:06,056 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 16:00:06,183 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 16:00:37,806 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:38]
+2019-04-22 16:05:25,860 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 16:05:26,017 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 16:08:28,531 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 16:08:28,666 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 16:13:42,496 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 16:13:42,646 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 16:15:09,874 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 16:15:10,017 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 16:15:49,212 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:66]
+2019-04-22 16:15:49,373 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:66]
+2019-04-22 16:23:36,082 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:67]
+2019-04-22 16:23:36,241 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:67]
+2019-04-22 16:25:24,946 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:67]
+2019-04-22 16:25:25,077 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:67]
+2019-04-22 16:30:37,922 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:67]
+2019-04-22 16:30:38,085 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:67]
+2019-04-22 16:32:27,016 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:67]
+2019-04-22 16:32:27,170 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:67]
+2019-04-22 16:32:58,257 - basepage - ERROR - 相对时间内没有定位到该元素,异常信息是Message: 
+ - [base.py:39]
+2019-04-22 16:34:58,063 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:67]
+2019-04-22 16:34:58,253 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:67]
+2019-04-22 16:43:53,039 - basepage - INFO - SendKeys 17751810779 in ('xpath', "//input[contains(@name,'account')]") success. - [base.py:67]
+2019-04-22 16:43:53,182 - basepage - INFO - SendKeys wrz19960529. in ('xpath', "//input[contains(@type,'password')]") success. - [base.py:67]
