@@ -16,6 +16,6 @@ class ClassmateLocator:
 
     message_input_locator = (By.XPATH, "//*[@id='dvm']//textarea")
 
-    message_submit_locator = (By.XPATH, "//a[@class='btn btn-positive disabled']")
+    message_submit_locator = (By.XPATH, "//a[@class='btn btn-positive']")
 
 

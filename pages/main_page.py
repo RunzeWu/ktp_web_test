@@ -10,6 +10,7 @@ from selenium import webdriver
 from pages.index_page import IndexPage
 from pages.login_page import LoginPage
 from pages.locators.main_locator import MainPageLocator as ml
+from selenium.webdriver.common.by import By
 
 
 class MainPage(BasePage):
@@ -44,10 +45,15 @@ class MainPage(BasePage):
     def click_jiaru(self):
         return self.get_visible_element(ml.join_button_locator).click()
 
-    def join_class(self, code="UEPLPQ"):
+    def join_class_with_no_class(self, code="UEPLPQ"):
         self.click_join_class()
         self.input_verf_code(code)
         self.click_jiaru()
+
+    def join_class_with_class(self,code):
+        self.click_join_class()
+        self.input_verf_code(code)
+        self.get_visible_element(ml.confirm_button_locator).click()
 
     def go_into_class(self):
         return self.get_visible_element(ml.class_locator).click()
@@ -63,6 +69,7 @@ class MainPage(BasePage):
         return self.get_visible_element(ml.homework_locator).click()
 
 
+
 if __name__ == '__main__':
     driver = webdriver.Chrome()
     login_page = LoginPage(driver)
@@ -71,5 +78,4 @@ if __name__ == '__main__':
     driver.get('https://www.ketangpai.com/')
     index_page.click_login_button()
     login_page.login("17751810779", "wrz19960529.")
-    main_page.join_class()
     main_page.exit_class("wrz19960529.")

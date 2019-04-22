@@ -16,13 +16,13 @@ class MainPageLocator:
 
     join_button_locator = (By.XPATH, "//a[contains(.,'加入')]")
 
-    join_success_toast = (By.XPATH, "//span[contains(., '加入课堂成功')]")
+    confirm_button_locator = (By.XPATH, "//a[contains(.,'加入')]")
 
     exit_toast = (By.XPATH, "//span[contains(., '课程退课成功')]")
 
-    re_join_toast = (By.XPATH, "//span[contains(., '你已经选过此课程')]")
-
     exit_locator = (By.XPATH, "//span[contains(.,'UEPLPQ')]/ancestor::dl//a[contains(.,'退课')]")
+
+    code_locator = (By.XPATH, "//*[@id='error-tip']/span")
 
     class_locator = (By.XPATH, "//a[@data-id='MDAwMDAwMDAwMLOstZeGqbex']")
 

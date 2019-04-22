@@ -33,13 +33,15 @@ class BasePage:
         :return:
         '''
         try:
-            return WebDriverWait(self.driver, eqc).until(
+            ele = WebDriverWait(self.driver, eqc).until(
                 EC.visibility_of_element_located(locator))
-        except Exception as e:
-            logger.error("相对时间内没有定位到该元素,异常信息是{}".format(e))
+            logger.info("获取{}元素成功".format(locator))
+            return ele
+        except:
+            logger.error("相对时间内没有定位到{}元素".format(locator))
             # self.driver.save_screenshot("/logs{}.png".format(time.time)
 
-    def get_presence_elements(self, locator, eqc=20):
+    def get_presence_element(self, locator, eqc=20):
         """
         定位一组元素
         :param locator:
@@ -48,11 +50,11 @@ class BasePage:
         """
         try:
             elements = WebDriverWait(self.driver, eqc).until(
-                EC.presence_of_all_elements_located(locator))
+                EC.presence_of_element_located(locator))
             logger.info('Positioning to the %s elements.' % locator)
             return elements
-        except Exception as e:
-            logger.error("相对时间内没有定位到该元素,异常信息是{}".format(e))
+        except:
+            logger.error("相对时间内没有定位到{}元素".format(locator))
 
     def send_keys(self, locator, text):
         '''

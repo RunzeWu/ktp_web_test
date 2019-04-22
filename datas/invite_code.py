@@ -5,8 +5,10 @@
 # E-mail    :wurz529@foxmail.com
 # File      :login_page.py
 # Software  :PyCharm Community Edition
+from selenium.webdriver.common.by import By
 
-inviteCode_correct = {"code": "UEPLPQ"}
+inviteCode_correct = [{"code": "UEPLPQ","locator":(By.XPATH, "//span[contains(., '加入课堂成功')]")}]
 
-inviteCode_incorrect = {"code": "asasas"}
+inviteCode_incorrect = [{"code": "UEPLPQ","expected":"你已经选过此课程","locator":(By.XPATH, "//span[contains(., '你已经选过此课程')]")},
+                        {"code": "asasas","expected":"不存在","locator":(By.XPATH, "//span[contains(., '不存在')]")}]
 

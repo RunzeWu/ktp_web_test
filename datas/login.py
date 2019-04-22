@@ -6,4 +6,8 @@
 # @File     : login.py
 # @Software : PyCharm
 
-userInfo = {"account": "1000", "password": "wrz19960529."}
+correct_userInfo = {"account": "17751810779", "pwd": "wrz19960529."}
+
+incorrect_userinfo = [{"account": "17751810779", "password": "wrz19960529."},
+                      {"account": "17751810779", "password": "wrz19960529"},
+                      {"account": "17751810779", "password": ""}]
