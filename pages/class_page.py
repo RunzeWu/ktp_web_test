@@ -3,7 +3,7 @@
 # @Time     : 2019/4/22 17:19
 # @Author   : Yosef-夜雨声烦
 # @Email    : wurz529@foxmail.com
-# @File     : class_page_locator.py
+# @File     : class_page.py
 # @Software : PyCharm
 from pages.base import BasePage
 from pages.locators.class_locator import ClassLocator as cl

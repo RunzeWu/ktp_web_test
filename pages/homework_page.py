@@ -53,6 +53,7 @@ class HomeworkPage(BasePage):
         return self.get_visible_element(hl.leave_message_area_locator).click()
 
     def input_leave_message(self, message):
+        self.get_visible_element(hl.leave_message_input_locator).clear()
         return self.get_visible_element(hl.leave_message_input_locator).send_keys(message)
 
     def click_save_message_button(self):
@@ -60,6 +61,9 @@ class HomeworkPage(BasePage):
 
     def return_page(self):
         return self.get_visible_element(hl.return_page_locator).click()
+
+    def get_tips(self):
+        return self.get_visible_element(hl.upload_success_toast).text
 
     def get_homework_status(self):
         self.return_page()

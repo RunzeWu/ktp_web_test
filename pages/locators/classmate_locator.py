@@ -18,4 +18,4 @@ class ClassmateLocator:
 
     message_submit_locator = (By.XPATH, "//a[@class='btn btn-positive']")
 
-
+    # //div[@class='text'][contains(.,'雨泽大佬你好帅testbyyysf')]

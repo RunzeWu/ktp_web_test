@@ -40,3 +40,5 @@ class HomeworkLocator:
 
     confirm_resubmit_button_locator = (By.XPATH,'//div[@class="btns"]//a[@class="sure active"]')
 
+    upload_success_toast = (By.XPATH, "//div[@class='weui_dialog_bd']")
+

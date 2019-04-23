@@ -15,6 +15,7 @@ from datas.invite_code import *
 logger = get_logger("test_join_class")
 
 
+@pytest.mark.run
 @pytest.mark.usefixtures("login")
 @pytest.mark.usefixtures("join_class_env")
 class TestJoinClass:
@@ -25,7 +26,7 @@ class TestJoinClass:
 
     @pytest.mark.parametrize("value", inviteCode_correct)
     def test_join_with_correct_code(self,value,join_class_env):
-        locator = value["locator"]
+        # locator = value["locator"]
         main_page = join_class_env
         main_page.refresh()
         main_page.join_class_with_no_class()
@@ -37,7 +38,6 @@ class TestJoinClass:
         except:
             logger.error("Failed")
             raise
-
 
     @pytest.mark.parametrize("value", inviteCode_incorrect)
     def test_join_with_wrong_code(self, value, join_class_env):
@@ -58,7 +58,5 @@ class TestJoinClass:
             raise
 
 
-
-
 if __name__ == '__main__':
-    pytest.main()
+    pytest.main(["-m test", "--alluredir=allure-result"])

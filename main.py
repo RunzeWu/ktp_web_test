@@ -10,8 +10,7 @@ from common.cmd import exc_allure_serve
 
 
 if __name__ == '__main__':
-    pytest.main(["-m pytest",
-                 "--alluredir=allure"])
+    pytest.main(["-m run", "--alluredir=allure-result"])
 
 # 可以选择脚本运行结束之后执行cmd命令，也可以忽略
 exc_allure_serve()

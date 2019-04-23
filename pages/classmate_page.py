@@ -9,7 +9,7 @@ from pages.locators.classmate_locator import ClassmateLocator as cl
 from pages.base import BasePage
 from pages.index_page import IndexPage
 from pages.login_page import LoginPage
-from pages.class_page_locator import ClassPage
+from pages.class_page import ClassPage
 from pages.main_page import MainPage
 from selenium import webdriver
 
@@ -22,6 +22,7 @@ class ClassmatePage(BasePage):
     def send_message(self, msg):
         self.get_visible_element(cl.message_input_locator).send_keys(msg)
         self.get_visible_element(cl.message_submit_locator).click()
+
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()
